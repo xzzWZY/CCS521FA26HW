@@ -1,0 +1,64 @@
+Target: 1
+Trials: 5
+Seed: 13 (reset in every process)
+UTC: 2026-09-27T00:23:15Z
+
+=== Trial 1 ===
+Command: uv run --locked python -u fgsm.py --t 1
+Target Class:  1
+Original Class:  2
+New Class:  2
+Traceback (most recent call last):
+  File "/home/julius/uiuc/cs521/CCS521FA26HW/hw1/problem1_FGSM/fgsm.py", line 51, in <module>
+    assert(new_class == t)
+           ^^^^^^^^^^^^^^
+AssertionError
+Exit code: 1
+
+=== Trial 2 ===
+Command: uv run --locked python -u fgsm.py --t 1
+Target Class:  1
+Original Class:  2
+New Class:  2
+Traceback (most recent call last):
+  File "/home/julius/uiuc/cs521/CCS521FA26HW/hw1/problem1_FGSM/fgsm.py", line 51, in <module>
+    assert(new_class == t)
+           ^^^^^^^^^^^^^^
+AssertionError
+Exit code: 1
+
+=== Trial 3 ===
+Command: uv run --locked python -u fgsm.py --t 1
+Target Class:  1
+Original Class:  2
+New Class:  2
+Traceback (most recent call last):
+  File "/home/julius/uiuc/cs521/CCS521FA26HW/hw1/problem1_FGSM/fgsm.py", line 51, in <module>
+    assert(new_class == t)
+           ^^^^^^^^^^^^^^
+AssertionError
+Exit code: 1
+
+=== Trial 4 ===
+Command: uv run --locked python -u fgsm.py --t 1
+Target Class:  1
+Original Class:  2
+New Class:  2
+Traceback (most recent call last):
+  File "/home/julius/uiuc/cs521/CCS521FA26HW/hw1/problem1_FGSM/fgsm.py", line 51, in <module>
+    assert(new_class == t)
+           ^^^^^^^^^^^^^^
+AssertionError
+Exit code: 1
+
+=== Trial 5 ===
+Command: uv run --locked python -u fgsm.py --t 1
+Target Class:  1
+Original Class:  2
+New Class:  2
+Traceback (most recent call last):
+  File "/home/julius/uiuc/cs521/CCS521FA26HW/hw1/problem1_FGSM/fgsm.py", line 51, in <module>
+    assert(new_class == t)
+           ^^^^^^^^^^^^^^
+AssertionError
+Exit code: 1

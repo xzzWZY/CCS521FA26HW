@@ -1,0 +1,125 @@
+Target: 0
+Trials: 10
+Model/input seed: 13
+Attack seeds: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+UTC: 2026-09-27T00:23:39Z
+
+=== Trial 1 ===
+Command: uv run python -u pgd.py --t 0 --seed 0 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 0
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 32; Restarts used: 0
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999911
+Attack success: True
+Exit code: 0
+
+=== Trial 2 ===
+Command: uv run python -u pgd.py --t 0 --seed 1 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 1
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 52; Restarts used: 0
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999911
+Attack success: True
+Exit code: 0
+
+=== Trial 3 ===
+Command: uv run python -u pgd.py --t 0 --seed 2 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 2
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 95; Restarts used: 0
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999940
+Attack success: True
+Exit code: 0
+
+=== Trial 4 ===
+Command: uv run python -u pgd.py --t 0 --seed 3 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 3
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 40; Restarts used: 0
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999911
+Attack success: True
+Exit code: 0
+
+=== Trial 5 ===
+Command: uv run python -u pgd.py --t 0 --seed 4 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 4
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 56; Restarts used: 0
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999911
+Attack success: True
+Exit code: 0
+
+=== Trial 6 ===
+Command: uv run python -u pgd.py --t 0 --seed 5 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 5
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 47; Restarts used: 0
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999940
+Attack success: True
+Exit code: 0
+
+=== Trial 7 ===
+Command: uv run python -u pgd.py --t 0 --seed 6 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 6
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 53; Restarts used: 0
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999911
+Attack success: True
+Exit code: 0
+
+=== Trial 8 ===
+Command: uv run python -u pgd.py --t 0 --seed 7 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 7
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 26; Restarts used: 0
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999911
+Attack success: True
+Exit code: 0
+
+=== Trial 9 ===
+Command: uv run python -u pgd.py --t 0 --seed 8 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 8
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 15; Restarts used: 2
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999911
+Attack success: True
+Exit code: 0
+
+=== Trial 10 ===
+Command: uv run python -u pgd.py --t 0 --seed 9 --eps 0.5 --alpha 0.01 --steps 100 --restarts 100
+Target Class: 0
+Model/input seed: 13; Attack seed: 9
+Epsilon: 0.5; Alpha: 0.01; Steps per restart: 100; Restarts: 100
+Iterations: 28; Restarts used: 0
+Original Class: 2
+New Class: 0
+L-infinity perturbation: 0.499999940
+Attack success: True
+Exit code: 0

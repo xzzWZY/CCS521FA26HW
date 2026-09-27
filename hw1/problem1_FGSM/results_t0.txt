@@ -1,0 +1,44 @@
+Target: 0
+Trials: 5
+Seed: 13 (reset in every process)
+UTC: 2026-09-27T00:23:04Z
+
+=== Trial 1 ===
+Command: uv run --locked python -u fgsm.py --t 0
+Target Class:  0
+Original Class:  2
+New Class:  0
+tensor(0.5000)
+Exit code: 0
+
+=== Trial 2 ===
+Command: uv run --locked python -u fgsm.py --t 0
+Target Class:  0
+Original Class:  2
+New Class:  0
+tensor(0.5000)
+Exit code: 0
+
+=== Trial 3 ===
+Command: uv run --locked python -u fgsm.py --t 0
+Target Class:  0
+Original Class:  2
+New Class:  0
+tensor(0.5000)
+Exit code: 0
+
+=== Trial 4 ===
+Command: uv run --locked python -u fgsm.py --t 0
+Target Class:  0
+Original Class:  2
+New Class:  0
+tensor(0.5000)
+Exit code: 0
+
+=== Trial 5 ===
+Command: uv run --locked python -u fgsm.py --t 0
+Target Class:  0
+Original Class:  2
+New Class:  0
+tensor(0.5000)
+Exit code: 0
