@@ -1,0 +1,70 @@
+{
+  "epochs": 15,
+  "seed": 42,
+  "test_size": 10000,
+  "clean_correct": 9343,
+  "clean_accuracy": 93.43,
+  "torch": "2.14.1",
+  "results": [
+    {
+      "epsilon": 0.01,
+      "verified_count": 7055,
+      "verified_accuracy": 70.55,
+      "strict_count": 7055
+    },
+    {
+      "epsilon": 0.020000000000000004,
+      "verified_count": 2368,
+      "verified_accuracy": 23.68,
+      "strict_count": 2368
+    },
+    {
+      "epsilon": 0.030000000000000006,
+      "verified_count": 456,
+      "verified_accuracy": 4.56,
+      "strict_count": 456
+    },
+    {
+      "epsilon": 0.04000000000000001,
+      "verified_count": 58,
+      "verified_accuracy": 0.58,
+      "strict_count": 58
+    },
+    {
+      "epsilon": 0.05000000000000001,
+      "verified_count": 2,
+      "verified_accuracy": 0.02,
+      "strict_count": 2
+    },
+    {
+      "epsilon": 0.06000000000000001,
+      "verified_count": 0,
+      "verified_accuracy": 0.0,
+      "strict_count": 0
+    },
+    {
+      "epsilon": 0.07,
+      "verified_count": 0,
+      "verified_accuracy": 0.0,
+      "strict_count": 0
+    },
+    {
+      "epsilon": 0.08,
+      "verified_count": 0,
+      "verified_accuracy": 0.0,
+      "strict_count": 0
+    },
+    {
+      "epsilon": 0.09000000000000001,
+      "verified_count": 0,
+      "verified_accuracy": 0.0,
+      "strict_count": 0
+    },
+    {
+      "epsilon": 0.1,
+      "verified_count": 0,
+      "verified_accuracy": 0.0,
+      "strict_count": 0
+    }
+  ]
+}
