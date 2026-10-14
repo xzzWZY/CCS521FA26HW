@@ -1,0 +1,11 @@
+/Users/zhiyuwu2/uiuc/CCS521FA26HW/hw2/q5/.venv/lib/python3.12/site-packages/z3/z3core.py:5: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Matplotlib is building the font cache; this may take a moment.
+Network: mnist_relu_3_100.onnx
+Clean accuracy on 100 images: 99.00%
+     eps   verified   time/img (s)
+   0.005     99.00%         0.1273
+    0.01     94.00%         0.1351
+    0.02     83.00%         0.1285
+    0.03     49.00%         0.1273
+    0.05      2.00%         0.1284

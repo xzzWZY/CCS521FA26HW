@@ -1,0 +1,8 @@
+[project]
+name = "hw2-constraintflow"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["constraintflow", "setuptools<81"]
+
+[tool.uv.sources]
+constraintflow = { path = "constraintflow", editable = true }

@@ -74,3 +74,43 @@ python run_cf.py mycert.cf --init La=L
 - Use a different `.cf` file name for each certifier. The script compiles each certifier to `build_<name>/`.
 - Run one certifier in each call of the script.
 - The provesound examples in the ConstraintFlow repository use `true` as the stop condition. The compiler does not accept this. Use a named function, as in `deeppoly.cf`.
+
+## Solution (uv)
+
+`relu_zero.cf` uses a zero lower bound for unstable ReLUs.
+`deeppoly_hardtanh.cf` adds HardTanh to the DeepPoly shape.
+The starter runner and network are unchanged.
+
+From this directory, clone the dependency if it is not already present:
+
+```bash
+git clone https://github.com/uiuc-focal-lab/constraintflow.git
+git -C constraintflow checkout 881e270
+uv sync --frozen
+```
+
+Check soundness:
+
+```bash
+uv run constraintflow provesound relu_zero.cf
+uv run constraintflow provesound deeppoly_hardtanh.cf
+```
+
+Run the two benchmarks separately:
+
+```bash
+OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 uv run python run_cf.py deeppoly.cf \
+  --num-images 100 --eps 0.005 0.01 0.02 0.03 0.05
+OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 uv run python run_cf.py relu_zero.cf \
+  --num-images 100 --eps 0.005 0.01 0.02 0.03 0.05
+```
+
+`results/` preserves the proof and benchmark logs.
+Proof success is indicated by `Proved Affine`, `Proved Relu`, and, where
+applicable, `Proved HardTanh`; the trailing `None` is only the CLI return value.
+
+The recorded timings use default compiler parallelization. To disable it,
+prefix either benchmark command with `CF_NO_PARALLEL=1`, as recommended by
+course staff. This is separate from the OpenMP/MKL thread limits and may change
+timings. Our Affine rule has only two backsubstitutions and did not hit the
+reported compiler bug. No additional shape initialization is needed.

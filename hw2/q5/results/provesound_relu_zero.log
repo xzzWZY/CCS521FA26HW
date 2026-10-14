@@ -1,0 +1,8 @@
+/Users/zhiyuwu2/uiuc/CCS521FA26HW/hw2/q5/.venv/lib/python3.12/site-packages/z3/z3core.py:5: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/zhiyuwu2/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /var/folders/fn/23wkv7w16dx_04kh7c99qt_w0000gn/T/matplotlib-gorctroe because there was an issue with the default path (/Users/zhiyuwu2/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+Proved Affine
+Proved Relu
+Provesound result: None

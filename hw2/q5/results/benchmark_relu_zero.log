@@ -1,0 +1,10 @@
+/Users/zhiyuwu2/uiuc/CCS521FA26HW/hw2/q5/.venv/lib/python3.12/site-packages/z3/z3core.py:5: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Network: mnist_relu_3_100.onnx
+Clean accuracy on 100 images: 99.00%
+     eps   verified   time/img (s)
+   0.005     99.00%         0.1288
+    0.01     93.00%         0.1269
+    0.02     74.00%         0.1283
+    0.03     26.00%         0.1277
+    0.05      0.00%         0.1303
