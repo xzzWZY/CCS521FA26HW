@@ -1,0 +1,15 @@
+# HW5 Bonus Research Question 2: template of a Beaver experiment config.
+# experiment_file is relative to this YAML file.
+# For full examples, see experiments/toxicity/toxicity.yaml (frontier verifier)
+# and experiments/toxicity/toxicity_baseline.yaml (sampling baseline)
+# in the Beaver repository.
+
+experiment_file: sycophancy.py
+load_prompts_fn: load_prompts
+constraint_fn: constraint_fn
+
+# Parameters of beaver.run()
+verifier: frontier # "frontier", or "sampling" for the baseline
+gen_length: 32 # maximum number of new tokens for each output
+epsilon: 0.1 # stop when P_UB - P_LB <= epsilon
+log_dir: beaver_logs
